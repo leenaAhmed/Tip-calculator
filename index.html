@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>TipCalculator</title>
+</head>
+<body>
+     <div class="continear">
+        <h1 class="page-title">Tip Calculator</h1>
+         <section>
+            <form id="form"> 
+                 <div class="inputs-group">
+                     <label for="bill-amount"> How much was your bill? </label> 
+                     <input type="number" name="bill" id="bill-amount" placeholder="bill-amount">
+                     <span>$</span>
+                  </div>
+                  <div class="inputs-group">
+                    <label for="service"> How was your serves? </label> 
+                     <select name="service" id="service" >
+                        <option value=".05"> Terrible - 5%      </option>
+                        <option value=".1">  Bad - 10%          </option>
+                        <option value=".15"> OK - 15%           </option>
+                        <option value=".2">  Good - 20%         </option>
+                        <option value=".3">  Outstanding - 30%  </option>
+                     </select>
+                  </div> 
+                  <div class="inputs-group">
+                    <label >How many people are sharing the bill? </label> 
+                    <input type="number" name="" id="num-people" placeholder=" enter people are sharing the bill">
+                    <span>people</span>
+                 </div>
+                 <div class="inputs-group">
+                     <button  type="submit"  id='Calculator'>CALCULATE</button>
+                      <button type="button" id='reset'>RESET</button>
+                   </div>
+            </form>
+         </section>
+         <!-- for result -->
+         <section id="result">
+
+         </section>
+     </div>
+      <!-- script-->
+      <script src="js/script.js"></script>
+ </body>
+</html>

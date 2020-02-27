@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+.continear{
+        padding: 0 0 20px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 400px;
+         overflow: hidden;
+        border-radius: 6px;
+        box-sizing: border-box;
+        border: 1px solid lightgray;
+    }
+
+.page-title {
+        background-color: #4c3f58;
+        padding: 20px 0;
+        text-align: center;
+        color: #fff;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+/* styles the inputs   */
+section {
+    margin-left: 5% ;
+}
+.inputs-group {
+    margin-bottom: 15px; 
+}
+.inputs-group label {
+    display: block;
+    margin-bottom: 9px ;
+}
+.inputs-group input , select {
+    /*display: block; */
+    border: 1px solid #4c3f58;
+    border-radius: 4px ;
+    width: 300px;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 0;
+}
+.inputs-group span {  
+    color: #4c3f58;
+    font-size: 19px;
+    padding: 10px;
+    border-radius: 0 4px 4px 0;
+    margin-left: 0;
+}
+
+.inputs-group button {
+    background-color: #4c3f58;
+    padding: 17px;
+     border: none; 
+    border-radius: 6px;
+    margin-left: 25px;
+    color: #fff;
+    margin-top: 20px;
+}
+/** result*/
+.result {
+    text-align: center;
+    font-weight: bold;
+ }
+ .result .pAmunat {
+     color: #4c3f58 ;
+     font-size: 21px;
+ }
+
